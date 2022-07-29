@@ -3,10 +3,15 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: -25px;
+}
+
 .healthy-food {
     display: flex;
     margin-top: 5%;
     margin-left: 5%;
+    margin-bottom: 100px;
 }
 
 .food {
@@ -22,6 +27,81 @@ body {
     text-decoration: none;
     color: beige;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
+    padding: 2px 30px;
     border-radius: 20px;
+}
+
+#small {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#text {
+    position: absolute;
+    top: 140%;
+    widows: 100%;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 90px;
+}
+
+.padding {
+    color: chocolate;
+    margin: 2%;
+}
+
+.margin {
+    margin-left: 40%;
+    text-align: left;
+}
+
+.class {
+    margin-top: 5px;
+}
+
+#block {
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 2px 30px;
+    border-radius: 20px;
+
+}
+
+.fexible {
+    margin-bottom: 60px;
+}
+
+.orange {
+    text-align: center;
+}
+
+.tall {
+    width: 70%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 30%;
+
+}
+
+.bad {
+    display: flex;
+
+}
+
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aling {
+    text-align: center;
+    padding: 5px;
 }
