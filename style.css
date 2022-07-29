@@ -1,0 +1,27 @@
+body {
+    font-family: 'DM Serif Display', serif;
+    margin: 0;
+}
+
+.healthy-food {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.food {
+    width: 80%;
+    margin-left: 15%;
+}
+
+#dot {
+    margin-top: 5%;
+}
+
+#good {
+    text-decoration: none;
+    color: beige;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+}
